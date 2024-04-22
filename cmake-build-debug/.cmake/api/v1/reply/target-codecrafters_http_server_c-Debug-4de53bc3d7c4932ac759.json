@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "codecrafters_http_server_c.exe"
-		},
-		{
-			"path" : "codecrafters_http_server_c.pdb"
+			"path" : "codecrafters_http_server_c"
 		}
 	],
 	"backtrace" : 1,
@@ -38,18 +35,13 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu11"
 				}
 			],
 			"language" : "C",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "11"
-			},
 			"sourceIndexes" : 
 			[
 				0
@@ -68,16 +60,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "codecrafters_http_server_c",
-	"nameOnDisk" : "codecrafters_http_server_c.exe",
+	"nameOnDisk" : "codecrafters_http_server_c",
 	"paths" : 
 	{
 		"build" : ".",

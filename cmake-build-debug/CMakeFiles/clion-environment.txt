@@ -1,5 +1,3 @@
-ToolSet: 11.0 w64 (local)@D:\Program Files\CLion\bin\mingw
-Ninja: 1.11.1@D:\Program Files\CLion\bin\ninja\win\x64\ninja.exe
-Options: 
+ToolSet: Debian GNU/Linux 11 (bullseye) (remote)Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=D:/Program Files/CLion/bin/ninja/win/x64/ninja.exe
+Options:

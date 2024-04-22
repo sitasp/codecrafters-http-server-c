@@ -1,10 +1,10 @@
-"D:\Program Files\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/CLion/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\Downloads\Projects\codecrafters-http-server-c -B D:\Downloads\Projects\codecrafters-http-server-c\cmake-build-debug
--- The C compiler identification is GNU 13.1.0
+C:\WINDOWS\system32\wsl.exe --distribution Debian --exec "/mnt/d/Program Files/CLion/bin/ttyfix" /bin/bash -c "export CLION_IDE=TRUE && export CMAKE_COLOR_DIAGNOSTICS=ON && export JETBRAINS_IDE=TRUE && cd /mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/d/Downloads/Projects/codecrafters-http-server-c -B /mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug"
+-- The C compiler identification is GNU 10.2.1
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: D:/Program Files/CLion/bin/mingw/bin/gcc.exe - skipped
+-- Check for working C compiler: /usr/bin/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (2.3s)
--- Generating done (0.0s)
--- Build files have been written to: D:/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug

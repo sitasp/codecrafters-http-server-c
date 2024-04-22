@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/codecrafters_http_server_c.dir/app/server.c.o -o codecrafters_http_server_c 

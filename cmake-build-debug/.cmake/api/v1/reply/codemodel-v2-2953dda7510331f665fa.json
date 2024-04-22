@@ -6,10 +6,9 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.28"
+						"string" : "3.18"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "codecrafters_http_server_c::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-codecrafters_http_server_c-Debug-2b4eac45a35daab4ccc7.json",
+					"jsonFile" : "target-codecrafters_http_server_c-Debug-4de53bc3d7c4932ac759.json",
 					"name" : "codecrafters_http_server_c",
 					"projectIndex" : 0
 				}
@@ -49,12 +48,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug",
-		"source" : "D:/Downloads/Projects/codecrafters-http-server-c"
+		"build" : "/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug",
+		"source" : "/mnt/d/Downloads/Projects/codecrafters-http-server-c"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 1
 	}
 }
