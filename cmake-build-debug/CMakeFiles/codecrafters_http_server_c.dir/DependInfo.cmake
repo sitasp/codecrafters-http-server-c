@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/hashmap.c" "/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug/CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.o"
+  "/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/httpparser.c" "/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug/CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.o"
   "/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/server.c" "/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug/CMakeFiles/codecrafters_http_server_c.dir/app/server.c.o"
+  "/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/stringutils.c" "/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug/CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

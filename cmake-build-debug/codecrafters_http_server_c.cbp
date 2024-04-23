@@ -76,7 +76,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/hashmap.c">
+			<Option target="codecrafters_http_server_c"/>
+		</Unit>
+		<Unit filename="/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/headers/hashmap.h">
+			<Option target="codecrafters_http_server_c"/>
+		</Unit>
+		<Unit filename="/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/headers/httpparser.h">
+			<Option target="codecrafters_http_server_c"/>
+		</Unit>
+		<Unit filename="/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/headers/stringutils.h">
+			<Option target="codecrafters_http_server_c"/>
+		</Unit>
+		<Unit filename="/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/httpparser.c">
+			<Option target="codecrafters_http_server_c"/>
+		</Unit>
 		<Unit filename="/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/server.c">
+			<Option target="codecrafters_http_server_c"/>
+		</Unit>
+		<Unit filename="/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/stringutils.c">
 			<Option target="codecrafters_http_server_c"/>
 		</Unit>
 		<Unit filename="/mnt/d/Downloads/Projects/codecrafters-http-server-c/CMakeLists.txt">

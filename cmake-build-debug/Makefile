@@ -142,6 +142,60 @@ codecrafters_http_server_c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/build
 .PHONY : codecrafters_http_server_c/fast
 
+app/hashmap.o: app/hashmap.c.o
+
+.PHONY : app/hashmap.o
+
+# target to build an object file
+app/hashmap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.o
+.PHONY : app/hashmap.c.o
+
+app/hashmap.i: app/hashmap.c.i
+
+.PHONY : app/hashmap.i
+
+# target to preprocess a source file
+app/hashmap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.i
+.PHONY : app/hashmap.c.i
+
+app/hashmap.s: app/hashmap.c.s
+
+.PHONY : app/hashmap.s
+
+# target to generate assembly for a file
+app/hashmap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.s
+.PHONY : app/hashmap.c.s
+
+app/httpparser.o: app/httpparser.c.o
+
+.PHONY : app/httpparser.o
+
+# target to build an object file
+app/httpparser.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.o
+.PHONY : app/httpparser.c.o
+
+app/httpparser.i: app/httpparser.c.i
+
+.PHONY : app/httpparser.i
+
+# target to preprocess a source file
+app/httpparser.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.i
+.PHONY : app/httpparser.c.i
+
+app/httpparser.s: app/httpparser.c.s
+
+.PHONY : app/httpparser.s
+
+# target to generate assembly for a file
+app/httpparser.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.s
+.PHONY : app/httpparser.c.s
+
 app/server.o: app/server.c.o
 
 .PHONY : app/server.o
@@ -169,6 +223,33 @@ app/server.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/server.c.s
 .PHONY : app/server.c.s
 
+app/stringutils.o: app/stringutils.c.o
+
+.PHONY : app/stringutils.o
+
+# target to build an object file
+app/stringutils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.o
+.PHONY : app/stringutils.c.o
+
+app/stringutils.i: app/stringutils.c.i
+
+.PHONY : app/stringutils.i
+
+# target to preprocess a source file
+app/stringutils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.i
+.PHONY : app/stringutils.c.i
+
+app/stringutils.s: app/stringutils.c.s
+
+.PHONY : app/stringutils.s
+
+# target to generate assembly for a file
+app/stringutils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/codecrafters_http_server_c.dir/build.make CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.s
+.PHONY : app/stringutils.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,9 +259,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... codecrafters_http_server_c"
+	@echo "... app/hashmap.o"
+	@echo "... app/hashmap.i"
+	@echo "... app/hashmap.s"
+	@echo "... app/httpparser.o"
+	@echo "... app/httpparser.i"
+	@echo "... app/httpparser.s"
 	@echo "... app/server.o"
 	@echo "... app/server.i"
 	@echo "... app/server.s"
+	@echo "... app/stringutils.o"
+	@echo "... app/stringutils.i"
+	@echo "... app/stringutils.s"
 .PHONY : help
 
 

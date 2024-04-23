@@ -9,8 +9,15 @@
 #include <errno.h>
 #include <unistd.h>
 
-//#define SO_REUSEPORT
 
+#include "headers/hashmap.h"
+#include "headers/httpparser.h"
+//#define SO_REUSEPORT
+#define BUFFER_SIZE 4096
+#define OUTPUT_BUFFER_SIZE 8192
+
+
+void printHashMap(HashMap *headers);
 
 int main()
 {
@@ -61,9 +68,48 @@ int main()
 	 int client_socket_fd = accept(server_fd, (struct sockaddr *) &client_addr, &client_addr_len);
 	 printf("Client connected\n");
 
-     char response[] = "HTTP/1.1 200 OK\r\n\r\n";
+     char buffer[BUFFER_SIZE];
+     int bytes_read = recv(client_socket_fd, buffer, sizeof(buffer), 0);
+     printf("Bytes received: %d, message: %s", bytes_read, buffer);
+
+     HttpRequest *request = createHttpRequest(buffer, bytes_read);
+     printf("Received Method: %u\t Received Path: %s\t Received Version: %s\n",
+                            request->method, request->path, request->http_version);
+
+     printHashMap(request->headers);
+
+     char response[1024] = {0};
+     if(strcmp(request->path, "/") == 0){
+         printf("inside 200 ok\n");
+         strcpy(response, "HTTP/1.1 200 OK\r\n\r\n");
+     }
+     else {
+         printf("inside 404 not found\n");
+         strcpy(response, "HTTP/1.1 404 Not Found\r\n\r\n");
+     }
+
+
      send(client_socket_fd, response, sizeof(response), 0);
      close(server_fd);
-
-	return 0;
+     destroyHttpRequest(request);
+	 return 0;
 }
+
+void printHashMap(HashMap *map) {
+    if (map == NULL) return;
+
+    // Iterate over all buckets
+    for (int i = 0; i < map->capacity; i++) {
+        Entry *current = map->buckets[i];
+        while (current != NULL) {
+            printf("Key: %s, Value: %s\n", (char *)current->key, (char *)current->value); // Assuming keys are strings
+            current = current->next;
+        }
+    }
+}
+
+//char* parseResponse(HttpRequest *request){
+//    char response[OUTPUT_BUFFER_SIZE];
+//
+//    return response;
+//}

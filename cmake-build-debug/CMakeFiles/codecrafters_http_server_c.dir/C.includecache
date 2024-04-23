@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/headers/hashmap.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/headers/httpparser.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+hashmap.h
+/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/headers/hashmap.h
+ctype.h
+/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/headers/ctype.h
+
 /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/server.c
 stdio.h
 -
@@ -23,4 +43,8 @@ errno.h
 -
 unistd.h
 -
+headers/hashmap.h
+/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/headers/hashmap.h
+headers/httpparser.h
+/mnt/d/Downloads/Projects/codecrafters-http-server-c/app/headers/httpparser.h
 

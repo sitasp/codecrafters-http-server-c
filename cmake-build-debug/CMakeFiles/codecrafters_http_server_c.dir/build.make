@@ -89,17 +89,62 @@ CMakeFiles/codecrafters_http_server_c.dir/app/server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/codecrafters_http_server_c.dir/app/server.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/server.c -o CMakeFiles/codecrafters_http_server_c.dir/app/server.c.s
 
+CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.o: CMakeFiles/codecrafters_http_server_c.dir/flags.make
+CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.o: ../app/hashmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.o -c /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/hashmap.c
+
+CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/hashmap.c > CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.i
+
+CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/hashmap.c -o CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.s
+
+CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.o: CMakeFiles/codecrafters_http_server_c.dir/flags.make
+CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.o: ../app/httpparser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.o -c /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/httpparser.c
+
+CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/httpparser.c > CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.i
+
+CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/httpparser.c -o CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.s
+
+CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.o: CMakeFiles/codecrafters_http_server_c.dir/flags.make
+CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.o: ../app/stringutils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.o -c /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/stringutils.c
+
+CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/stringutils.c > CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.i
+
+CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Downloads/Projects/codecrafters-http-server-c/app/stringutils.c -o CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.s
+
 # Object files for target codecrafters_http_server_c
 codecrafters_http_server_c_OBJECTS = \
-"CMakeFiles/codecrafters_http_server_c.dir/app/server.c.o"
+"CMakeFiles/codecrafters_http_server_c.dir/app/server.c.o" \
+"CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.o" \
+"CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.o" \
+"CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.o"
 
 # External object files for target codecrafters_http_server_c
 codecrafters_http_server_c_EXTERNAL_OBJECTS =
 
 codecrafters_http_server_c: CMakeFiles/codecrafters_http_server_c.dir/app/server.c.o
+codecrafters_http_server_c: CMakeFiles/codecrafters_http_server_c.dir/app/hashmap.c.o
+codecrafters_http_server_c: CMakeFiles/codecrafters_http_server_c.dir/app/httpparser.c.o
+codecrafters_http_server_c: CMakeFiles/codecrafters_http_server_c.dir/app/stringutils.c.o
 codecrafters_http_server_c: CMakeFiles/codecrafters_http_server_c.dir/build.make
 codecrafters_http_server_c: CMakeFiles/codecrafters_http_server_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable codecrafters_http_server_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Downloads/Projects/codecrafters-http-server-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable codecrafters_http_server_c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/codecrafters_http_server_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
