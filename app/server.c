@@ -78,14 +78,14 @@ int main()
 
      printHashMap(request->headers);
 
-     char response[1024] = {0};
+     char *response;
      if(strcmp(request->path, "/") == 0){
          printf("inside 200 ok\n");
-         strcpy(response, "HTTP/1.1 200 OK\r\n\r\n");
+         response = "HTTP/1.1 200 OK\r\n\r\n";
      }
      else {
          printf("inside 404 not found\n");
-         strcpy(response, "HTTP/1.1 404 Not Found\r\n\r\n");
+         response = "HTTP/1.1 404 Not Found\r\n\r\n";
      }
 
 
