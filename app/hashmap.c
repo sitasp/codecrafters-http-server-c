@@ -57,9 +57,9 @@ void insert(HashMap *map, void *key, void *value) {
     } else {
         Entry *current = map->buckets[index];
         while (current->next != NULL) {
-            current = current->next;
+            current = (Entry *) current->next;
         }
-        current->next = newEntry;
+        current->next = (struct entry *) newEntry;
     }
 
     map->size++;
@@ -77,7 +77,7 @@ void *get(HashMap *map, void *key) {
         if (map->key_compare(current->key, key) == 0) {
             return current->value;
         }
-        current = current->next;
+        current = (Entry *) current->next;
     }
 
     return NULL; // Key not found
@@ -95,9 +95,9 @@ void resize(HashMap *map) {
     for (int i = 0; i < map->capacity; i++) {
         Entry *current = map->buckets[i];
         while (current != NULL) {
-            Entry *next = current->next;
+            Entry *next = (Entry *) current->next;
             unsigned int newIndex = map->key_hash(current->key) % newCapacity;
-            current->next = newBuckets[newIndex];
+            current->next = (struct entry *) newBuckets[newIndex];
             newBuckets[newIndex] = current;
             current = next;
         }
