@@ -103,7 +103,7 @@ void printHashMap(HashMap *map) {
         Entry *current = map->buckets[i];
         while (current != NULL) {
             printf("Key: %s, Value: %s\n", (char *)current->key, (char *)current->value); // Assuming keys are strings
-            current = current->next;
+            current = (Entry *) current->next;
         }
     }
 }
